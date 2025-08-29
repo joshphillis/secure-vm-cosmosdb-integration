@@ -98,7 +98,7 @@ python inventory.py
 ### 🧹 Don’t Forget to Clean Up
 To avoid unnecessary charges, delete the resource group when you're done:
 ```bash
-az group delete --name CosmosDB --yes --no-wait
+az group delete --resource-group CosmosDB
 ```
 
 
