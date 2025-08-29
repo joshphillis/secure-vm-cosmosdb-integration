@@ -2,12 +2,12 @@
 
 ## 🚀 Azure Cosmos DB Integration from Secure Ubuntu VM
 
-### Overview
+### Overview  
 This project demonstrates how to provision and interact with Azure Cosmos DB (NoSQL API) from a secure Ubuntu VM using Python. It mirrors AWS DynamoDB-style operations—insert, query, update, delete—while showcasing Azure-native infrastructure and CLI tooling.
 
 ---
 
-### 🧱 Infrastructure Setup (via Azure Portal)
+### 🧱 Infrastructure Setup (via Azure Portal)  
 Provision the following resources manually in the Azure Portal under a resource group named `CosmosDB`:
 - Ubuntu VM (`CosmosDb3`)
 - Virtual Network (`CosmosDb3-vnet`)
@@ -95,10 +95,11 @@ python inventory.py
 
 ---
 
-### 🧠 Optional Enhancements
-- Use `.env` file for secure credential handling
-- Add logging for audit trails
-- Refactor into modular Python files
-- Integrate with VNet or private endpoints for production security
-- Package as a mentorship lab or classroom module
+### 🧹 Don’t Forget to Clean Up
+To avoid unnecessary charges, delete the resource group when you're done:
+```bash
+az group delete --name CosmosDB --yes --no-wait
+```
+
+
 
