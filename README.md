@@ -1,4 +1,4 @@
-# secure-vm-cosmosdb-integration
+# azure-secure-vm-cosmosdb-integration
 
 ## 🚀 Azure Cosmos DB Integration from Secure Ubuntu VM
 
