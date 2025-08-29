@@ -1,0 +1,1 @@
+# secure-vm-cosmosdb-integration
